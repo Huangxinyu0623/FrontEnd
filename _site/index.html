@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Home</title>
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/blog/">
+    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/blog/"> -->
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/dist/css/bootstrap.css" rel="stylesheet"><!--绝对路径采用这个‘/’-->
     <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">   -->
   </head>
@@ -39,12 +40,11 @@
   <meta name="generator" content="Jekyll v4.0.1">
   <title>FrontEnd</title>
 
-  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/blog/">
+  <!-- <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/blog/"> -->
 
   <!-- Bootstrap core CSS -->
-  <!-- <link href="assets/dist/css/bootstrap.css" rel="stylesheet"> -->
-  <!-- <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">   -->
-  <!-- <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+  <!-- <link href="assets/dist/css/bootstrap.css" rel="stylesheet">
+  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
   <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
   <style>
     .bd-placeholder-img {
@@ -131,11 +131,12 @@
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-primary">历史</strong>
             <h3 class="mb-0">重庆历史</h3>
-            <p class="card-text mb-auto">重庆是国家历史文化名城。1189年，宋光宗赵惇先封恭王再即帝位，自诩“双重喜庆”，重庆由此得名。重庆是“红岩精神”起源地，巴渝文化发祥地，“火锅”、“吊脚楼”等影响深远。</p>
+            <p class="card-text mb-auto">
+              重庆是国家历史文化名城。1189年，宋光宗赵惇先封恭王再即帝位，自诩“双重喜庆”，重庆由此得名。重庆是“红岩精神”起源地，巴渝文化发祥地，“火锅”、“吊脚楼”等影响深远。</p>
             <a href="#" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-auto d-none d-lg-block">
-            <a href="#"><img src="assets/images/pic2.jpg" alt="food" height="250" width="220"></a>
+            <img src="assets/images/pic2.jpg" alt="food" height="250" width="220">
           </div>
         </div>
       </div>
@@ -237,40 +238,8 @@
           <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
         </div><!-- /.blog-post -->
 
-        <div class="blog-post">
-          <h2 class="blog-post-title">Another blog post</h2>
-          <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
 
-          <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus.
-            Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est
-            at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-          <blockquote>
-            <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu
-              leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          </blockquote>
-          <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum.
-            Aenean lacinia bibendum nulla sed consectetur.</p>
-          <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus,
-            nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac,
-            vestibulum at eros.</p>
-        </div><!-- /.blog-post -->
 
-        <div class="blog-post">
-          <h2 class="blog-post-title">New feature</h2>
-          <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
-
-          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia
-            bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac
-            cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <ul>
-            <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-            <li>Donec id elit non mi porta gravida at eget metus.</li>
-            <li>Nulla vitae elit libero, a pharetra augue.</li>
-          </ul>
-          <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum.
-            Aenean lacinia bibendum nulla sed consectetur.</p>
-          <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-        </div><!-- /.blog-post -->
 
         <nav class="blog-pagination">
           <a class="btn btn-outline-primary" href="#">Older</a>
