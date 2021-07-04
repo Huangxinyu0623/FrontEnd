@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
-  <ul class="navbar-nav col-md-6 col-sm-12 justify-content-end">
+  <ul class="navbar-nav col-md-6 col-sm-4 justify-content-end">
     <li class="nav-item active">
       {% for item in site.data.navigation %}
       <a class="btn btn-outline-light text-light " href="{{ item.link }}" {% if page.url==item.link %}class="current" {% endif %}>{{ item.name }}</a>
