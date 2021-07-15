@@ -21,9 +21,9 @@ title: Share
           </h3>
 
           <div class="blog-post">
-            <ul>
+            <ul >
               {% for post in site.posts %}
-              <li>
+              <li class="border border-light " style="border-radius:5px ;">
                 <h2 class="blog-post-title"><a class="text-light" href="{{ post.url }}">{{ post.title }}</a></h2>
                 {{ post.date | date_to_string }}
                 {% assign author = site.authors | where: 'short_name', post.author | first %}
@@ -32,6 +32,7 @@ title: Share
                 {% endif %}
                 {{ post.excerpt }}
               </li>
+              <p></p>
               {% endfor %}
             </ul>
           </div><!-- /.blog-post -->
