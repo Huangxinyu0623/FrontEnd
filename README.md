@@ -11,7 +11,7 @@
 （3）Share：分享页面，大家分享旅游攻略，游玩心得，城市体验的地方   
 （4）About：关于本网页的简要说明   
 ### 4.页面展示
-#### （PS：也可通过GitHub Pages直接观看---->[Link](https://huangxinyu0623.github.io/)）
+#### （PS：也可通过GitHub Pages直接观看---->[Link](https://webteamhxyandmore.github.io/)）
 #### Home
 ![home](/assets/images/page1.png)
 ![home](/assets/images/page2.png)
