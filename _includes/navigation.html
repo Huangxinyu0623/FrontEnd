@@ -1,5 +1,5 @@
 <nav class="col-md-12 navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
-  <ul class="col-md-4 navbar-nav justify-content-end nav-justified">
+  <ul class="col-md-8 navbar-nav justify-content-end nav-justified">
     <li class="nav-item active">
       {% for item in site.data.navigation %}
       <a class="btn btn-outline-light btn-dark " href="{{ item.link }}" {% if page.url==item.link %}class="current" {%
@@ -7,7 +7,7 @@
       {% endfor %}
     </li>
   </ul>
-  <div class="  justify-content-center align-items-center">
+  <div class="align-items-center">
     <form class="form-inline ">
         <a href="https://cn.bing.com" class="btn btn-outline-light btn-success">Search</a>
     </form>
