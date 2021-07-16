@@ -2,7 +2,7 @@
   <ul class="navbar-nav col-md-6 col-sm-6 justify-content-end">
     <li class="nav-item active">
       {% for item in site.data.navigation %}
-      <a class="btn btn-outline-light text-light " href="{{ item.link }}" {% if page.url==item.link %}class="current" {% endif %}>{{ item.name }}</a>
+      <a class="btn btn-outline-light btn-dark " href="{{ item.link }}" {% if page.url==item.link %}class="current" {% endif %}>{{ item.name }}</a>
       {% endfor %}
     </li>
   </ul>
