@@ -1,15 +1,15 @@
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
-  <ul class="navbar-nav col-md-6  justify-content-end">
+<nav class="col-md-12 navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+  <ul class="col-md-4 navbar-nav justify-content-end nav-justified">
     <li class="nav-item active">
       {% for item in site.data.navigation %}
-      <a class="btn btn-outline-light btn-dark " href="{{ item.link }}" {% if page.url==item.link %}class="current" {% endif %}>{{ item.name }}</a>
+      <a class="btn btn-outline-light btn-dark " href="{{ item.link }}" {% if page.url==item.link %}class="current" {%
+        endif %}>{{ item.name }}</a>
       {% endfor %}
     </li>
   </ul>
-  <div class="col-md-4 d-flex justify-content-end align-items-center">
+  <div class="  justify-content-center align-items-center">
     <form class="form-inline ">
-      <input class="form-control" type="text" placeholder="发现你感兴趣的事">
-      <a href="https://cn.bing.com" class="btn btn-success">Search</a>
+        <a href="https://cn.bing.com" class="btn btn-outline-light btn-success">Search</a>
     </form>
   </div>
 </nav>
