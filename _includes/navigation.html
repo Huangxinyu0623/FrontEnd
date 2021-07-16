@@ -1,15 +1,11 @@
-<nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+<nav class="col-md-12 navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
   <ul class="navbar-nav justify-content-end nav-justified">
     <li class="nav-item active">
       {% for item in site.data.navigation %}
       <a class="btn btn-outline-light btn-dark " href="{{ item.link }}" {% if page.url==item.link %}class="current" {%
         endif %}>{{ item.name }}</a>
       {% endfor %}
+      <a href="https://cn.bing.com" class="btn btn-outline-light btn-success">Search</a>
     </li>
-    <div class="align-items-center">
-      <form class="form-inline ">
-        <a href="https://cn.bing.com" class="btn btn-outline-light btn-success">Search</a>
-      </form>
-    </div>
   </ul>
 </nav>
